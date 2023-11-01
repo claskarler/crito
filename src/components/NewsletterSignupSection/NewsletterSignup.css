@@ -1,0 +1,58 @@
+.newsletter-signup {
+    background-color: #f0efe9;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 0;
+  }
+  .newsletter-signup .background-wavy-lines {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    display: none;
+    z-index: -1;
+  }
+  @media (min-width: 1400px) {
+    .newsletter-signup .background-wavy-lines {
+      display: block;
+    }
+  }
+  .newsletter-signup .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    .newsletter-signup .container {
+      flex-direction: row;
+    }
+  }
+  .newsletter-signup .container h2 {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  @media (min-width: 1200px) {
+    .newsletter-signup .container h2 {
+      text-align: start;
+      padding-bottom: 0px;
+    }
+  }
+  .newsletter-signup .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter-signup .container form input {
+    margin-bottom: 15px;
+  }
+  @media (min-width: 1200px) {
+    .newsletter-signup .container form {
+      flex-direction: row;
+    }
+    .newsletter-signup .container form input {
+      margin-right: 20px;
+      margin-bottom: 0px;
+    }
+  }

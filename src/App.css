@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap");
+
+html, body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+}
+html h3,
+body h3 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+html input,
+body input {
+  padding: 12px 30px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #dad9d3;
+}
+
+.big-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1400px) {
+  .big-container {
+    width: 80%;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+.social-media .social-media-button {
+  color: inherit;
+  text-decoration: inherit;
+  padding-right: 20px;
+  transition: color 0.15s ease-in-out;
+}
+
+.btn-yellow {
+  background-color: #f9d783;
+  border: 1px solid #f9d783;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+.btn-yellow span {
+  font-weight: 400;
+}
+.btn-yellow i {
+  margin-left: 12px;
+  font-size: 0.9em;
+}
+.btn-yellow:hover {
+  background-color: #191919;
+  color: white;
+}
+
+.btn-transparent {
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+.btn-transparent span {
+  font-weight: 400;
+}
+.btn-transparent i {
+  margin-left: 12px;
+  font-size: 0.9em;
+}
+.btn-transparent:hover {
+  background-color: #191919;
+  border: 1px soild #191919;
+  color: white;
+}
+
+.btn-black {
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+.btn-black span {
+  font-weight: 400;
+}
+.btn-black i {
+  margin-left: 12px;
+  font-size: 0.9em;
+}
+.btn-black:hover {
+  background-color: white;
+  border: 1px soild #191919;
+  color: #191919;
+}
+
+.btn-circular {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+.btn-circular i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+.btn-circular i:hover {
+  background-color: white;
+  color: #191919;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .section-title {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .section-title {
+    text-align: start;
+  }
+}
+.section-title h2 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.section-title p {
+  color: #f94d1c;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.center-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+.article {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-decoration: none;
+  color: inherit;
+}
+.article .image-date {
+  position: relative;
+}
+.article .image-date .date-box {
+  position: absolute;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #EDCF86;
+  line-height: 11px;
+  top: 20px;
+  left: 20px;
+}
+.article .image-date .date-box h3 {
+  margin: 0px 0px;
+  font-size: 30px;
+}
+.article .image-date .date-box p {
+  margin: 0px 0px;
+}
+@media (min-width: 1400px) {
+  .article .image-date .date-box {
+    padding: 15px 15px;
+  }
+  .article .image-date .date-box h3 {
+    font-size: 22px;
+  }
+}
+.article img {
+  width: 100%;
+  height: auto;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+}
+.scroll .button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.scroll .button-container .scroll-circle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #D1D1D1;
+}
+.scroll .button-container .active {
+  background-color: #191919;
+}

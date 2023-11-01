@@ -1,0 +1,152 @@
+.about-company .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  @media (min-width: 992px) {
+    .about-company .container {
+      flex-direction: row;
+    }
+  }
+  .about-company .container .founder-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .about-company .container .founder-section .background-lines {
+    position: absolute;
+    top: 30px;
+    left: -35px;
+  }
+  .about-company .container .founder-section img {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .about-company .container .founder-section img {
+      display: block;
+      margin-bottom: 0px;
+    }
+  }
+  .about-company .container .founder-section .about-founder {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #beebff;
+  }
+  @media (min-width: 768px) {
+    .about-company .container .founder-section .about-founder {
+      margin-bottom: -220px;
+      height: 185px;
+      width: 368px;
+      right: 56px;
+      bottom: 220px;
+      box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.1176470588);
+    }
+  }
+  .about-company .container .founder-section .about-founder h3 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .about-company .container .founder-section .about-founder h3 span {
+    color: #f94d1c;
+    font-size: 16px;
+  }
+  .about-company .container .about-company-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    .about-company .container .about-company-text {
+      text-align: start;
+      padding-left: 50px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .about-company .container .about-company-text {
+      padding-left: 200px;
+    }
+  }
+  .about-company .container .about-company-text p {
+    padding-bottom: 50px;
+  }
+  @media (min-width: 1200px) {
+    .about-company .container .about-company-text p {
+      padding-bottom: 100px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .about-company .container .about-company-text p {
+      padding-bottom: 170px;
+    }
+  }
+  .about-company .container .about-company-text .section-title {
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+  @media (min-width: 992px) {
+    .about-company .container .about-company-text .section-title {
+      padding: 0px;
+    }
+  }
+  .about-company .container .about-company-text .section-title p {
+    padding-bottom: 0px;
+  }
+  .about-company .container .about-company-text .learn-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (min-width: 360px) {
+    .about-company .container .about-company-text .learn-video {
+      flex-direction: row;
+    }
+    .about-company .container .about-company-text .learn-video .btn-black {
+      margin-bottom: 0px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .about-company .container .about-company-text .learn-video {
+      justify-content: start;
+    }
+  }
+  .about-company .container .about-company-text .learn-video .btn-black {
+    margin-bottom: 20px;
+  }
+  .about-company .container .about-company-text .learn-video .play-video {
+    margin-left: 10px;
+  }
+  @media (min-width: 1200px) {
+    .about-company .container .about-company-text .learn-video .play-video {
+      justify-content: left;
+      margin-left: 40px;
+    }
+  }
+  .about-company .container .about-company-text .learn-video .play-video .btn-play {
+    display: flex;
+    color: #191919;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-company .container .about-company-text .learn-video .play-video .btn-play i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #191919;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  }
+  .about-company .container .about-company-text .learn-video .play-video .btn-play:hover i {
+    background-color: #191919;
+    border: 1px soild #191919;
+    color: white;
+  }
