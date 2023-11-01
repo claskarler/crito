@@ -1,6 +1,7 @@
 import React from 'react'
 import './ChooseUs.css'
 import img_chooseus from '../../assets/images/why-choose-us.png'
+import SectionTitle from '../Generics/SectionTitle'
 
 const ChooseUs = () => {
   return (
@@ -8,10 +9,7 @@ const ChooseUs = () => {
         <div className="background-box"></div>
         <div className="container">
             <div className="choose-us-text">
-                <div className="section-title">
-                    <p>Why Choose Us</p>
-                    <h2>Why We Are The Best Business Consulting Agency</h2>
-                </div>
+                <SectionTitle text="Why Choose Us" title="Why We Are The Best Business Consulting Agency"/>
                 <div className="reasons-list">
                     <div className="reason 1">
                         <div className="icon-circular"><i className="fa-light fa-thumbs-up"></i></div>

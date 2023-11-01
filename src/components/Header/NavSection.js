@@ -41,7 +41,7 @@ function NavSection() {
                             <a href="news.html">News</a>
                             <a href="contact.html">Contact</a>
                         </div>
-                        <Button text='Login' />
+                        <Button type='yellow' text='Login' />
                     </div>
                 </div>
             </div>

@@ -41,31 +41,31 @@
       border: none;
     }
   }
-  .features .container .section-title {
+  .features .container .title {
     margin-bottom: 40px;
   }
   @media (min-width: 992px) {
-    .features .container .section-title {
+    .features .container .title {
       margin-right: 50px;
       max-width: 460px;
       margin-bottom: 100px;
     }
   }
   @media (min-width: 1400px) {
-    .features .container .section-title {
+    .features .container .title {
       margin-right: 100px;
       margin-bottom: 200px;
     }
   }
   @media (min-width: 1600px) {
-    .features .container .section-title {
+    .features .container .title {
       margin-right: 150px;
     }
   }
-  .features .container .section-title h2 {
+  .features .container .title h2 {
     margin-bottom: 40px;
   }
-  .features .container .section-title a {
+  .features .container .title a {
     display: flex;
     justify-content: center;
   }

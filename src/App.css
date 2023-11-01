@@ -75,6 +75,7 @@ body input {
 
 .btn-transparent {
   border: 1px solid #191919;
+  background-color: transparent;
   color: #191919;
   text-decoration: none;
   padding: 12px 30px;

@@ -1,5 +1,10 @@
 import React from 'react'
 import './ArticleNews.css'
+
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+import DateBox from '../Generics/DateBox'
+
 import img_articleone from '../../assets/images/article-image-1.png'
 import img_articletwo from '../../assets/images/article-image-2.png'
 import img_articlethree from '../../assets/images/article-image-3.png'
@@ -9,19 +14,13 @@ const ArticleNews = () => {
     <section className="article-news">
         <div className="container">
             <div className="article-news-header">
-                <div className="section-title">
-                    <p>Article & News</p>
-                    <h2>Get Every Single Articles & News</h2>
-                </div>
-                <a className="btn-transparent" href="#">Browse Articles<i className="fa-regular fa-arrow-up-right"></i></a>
+                <SectionTitle text="Article & News" title="Get Every Single Articles & News"/>
+                <Button type= "transparent" text="Browse Articles" url="/articles"/>
             </div>
             <div className="article-grid">
                 <a className="article 1" href="#">
                     <div className="image-date">
-                        <div className="date-box">
-                            <h3>25</h3>
-                            <p>Mar</p>
-                        </div>
+                        <DateBox date= "25" month="Mar"/>
                         <img src={img_articleone}/>
                     </div>
                     <div className="article-text">
@@ -32,10 +31,7 @@ const ArticleNews = () => {
                 </a>
                 <a className="article 2" href="#">
                     <div className="image-date">
-                        <div className="date-box">
-                            <h3>17</h3>
-                            <p>Mar</p>
-                        </div>
+                        <DateBox date= "17" month="Mar"/>
                         <img src={img_articletwo}/>
                     </div>
                     <div className="article-text">
@@ -46,10 +42,7 @@ const ArticleNews = () => {
                 </a>
                 <a className="article 3" href="#">
                     <div className="image-date">
-                        <div className="date-box">
-                            <h3>13</h3>
-                            <p>Mar</p>
-                        </div>
+                        <DateBox date= "13" month="Mar"/>
                         <img src={img_articlethree}/>
                     </div>
                     <div className="article-text">

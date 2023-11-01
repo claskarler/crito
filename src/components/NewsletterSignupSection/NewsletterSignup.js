@@ -1,5 +1,8 @@
 import React from 'react'
 import './NewsletterSignup.css'
+
+import Button from '../Generics/Button'
+
 import img_backgroundlines from '../../assets/images/background-wavy-lines.svg'
 
 const NewsletterSignup = () => {
@@ -10,7 +13,7 @@ const NewsletterSignup = () => {
             <h2>Get News Updates By Signup</h2>
             <form>
                 <input type="email" placeholder="username@domain.com"/>
-                <button className="btn-yellow"><span>Subscribe<i className="fa-regular fa-arrow-up-right"></i></span></button>
+                <Button type= "yellow" text="Subscribe"/>
             </form>
         </div>
     </section>

@@ -1,5 +1,7 @@
 import React from 'react'
 import './Testimonial.css'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
 
 import img_cassandra from '../../assets/images/Cassandra.png'
 import img_amanda from '../../assets/images/Amanda.png'
@@ -10,10 +12,7 @@ const Testimonial = () => {
     <section className="testimonial">
     <div className="big-container">
         <div className="container">
-            <div className="section-title">
-                <p>Testimonial</p>
-                <h2>What Our Client Says</h2>
-            </div>
+            <SectionTitle text="Testimonial" title="What Our Client Says"/>
             <div className="testimonial-grid">
                 <div className="client-testimonial">
                     <div className="rating">
@@ -73,8 +72,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            <a className="btn-black" href="projects.html"><span>All Reviews<i
-                        className="fa-regular fa-arrow-up-right"></i></span></a>
+            <Button type= "black" text="All Reviews" url="/services/reviews"/>
         </div>
     </div>
 

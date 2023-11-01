@@ -1,6 +1,9 @@
 import React from 'react'
 import './ProjectCase.css'
 
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+
 import img_articleone from '../../assets/images/article-img-1.png'
 import img_articletwo from '../../assets/images/article-img-2.png'
 import img_articlethree from '../../assets/images/article-img-3.png'
@@ -11,10 +14,7 @@ const ProjectCase = () => {
   return (
     <section className="project-case">
         <div className="container">
-            <div className="section-title">
-                <p>Project & Case Studies</p>
-                <h2>Let’s Looks Our Global Projects</h2>
-            </div>
+        <SectionTitle text="Project & Case Studies" title="Let’s Looks Our Global Projects"/>
             <div className="project-case-grid">
                 <a className="article" href="#">
                     <img src={img_articleone} alt="Person wearing a suit holding a business magazine"/>
@@ -39,8 +39,7 @@ const ProjectCase = () => {
                 </a>
             </div>
             <div className="center-item">
-                <a className="btn-black" href="projects.html"><span>All Recent Projects<i
-                            className="fa-regular fa-arrow-up-right"></i></span></a>
+                <Button type= "black" text="All Recent Projects" url="/services/projects"/>
             </div>
         </div>
     </section>

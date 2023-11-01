@@ -1,16 +1,16 @@
 import React from 'react'
 import './Services.css'
 import img_backgroundlines from '../../assets/images/background-lines-right.svg'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+
 
 const Services = () => {
   return (
     <section className="services">
         <img src={img_backgroundlines}/>
         <div className="container">
-            <div className="section-title">
-                <p>Our Services</p>
-                <h2>We Provide The Best Service For Consulting</h2>
-            </div>
+            <SectionTitle text="Our Services" title="We Provide The Best Service For Consulting"/>
             <div className="service-links">
                 <a className="service-link" href="#">
                     <div className="link-content">
@@ -45,8 +45,7 @@ const Services = () => {
                     </div>
                 </a>
             </div>
-            <div className="browse-services"><a className="btn-transparent" href="services.html"><span>Browse Services<i
-                            className="fa-regular fa-arrow-up-right"></i></span></a></div>
+            <div className="browse-services"><Button type= "transparent" text="Browse Services" url="/services/learn-more"/></div>
         </div>
     </section>
   )

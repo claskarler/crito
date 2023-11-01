@@ -1,16 +1,16 @@
 import React from 'react'
 import './Features.css'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
 
 const Features = () => {
   return (
     <section className="features">
         <div className="big-container">
             <div className="container">
-                <div className="section-title">
-                    <p>Features</p>
-                    <h2>Our Accounting is trusted by thousand of companies</h2>
-                    <a className="btn-yellow" href="#"><span>Learn More<i
-                                className="fa-regular fa-arrow-up-right"></i></span></a>
+                <div className="title">
+                    <SectionTitle text="Features" title="Our Accounting is trusted by thousand of companies"/>
+                    <Button type= "yellow" text="Learn More" url="/services/learn-more"/>
                 </div>
 
                 <div className="feature-list">

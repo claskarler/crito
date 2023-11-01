@@ -1,6 +1,9 @@
 import React from 'react'
 import './MeetTeam.css'
 
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+
 import img_kristine from '../../assets/images/Kristine.png'
 import img_mark from '../../assets/images/Mark.png'
 import img_kimberly from '../../assets/images/Kimberly.png'
@@ -11,11 +14,8 @@ const MeetTeam = () => {
     <section className="meet-team">
         <div className="container">
             <div className="team-header">
-                <div className="section-title">
-                    <p>Meet Our Team</p>
-                    <h2>Experience Team Members</h2>
-                </div>
-                <a className="btn-yellow" href="#">Browse Team<i className="fa-regular fa-arrow-up-right"></i></a>
+                <SectionTitle text="Meet Our Team" title="Experience Team Members"/>
+                <Button type= "transparent" text="Browse Team" url="/meet-our-team"/>
             </div>
             <div className="team">
                 <div className="team-member">

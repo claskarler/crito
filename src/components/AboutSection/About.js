@@ -1,5 +1,9 @@
 import React from 'react'
 import './About.css'
+
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+
 import img_whitelines from '../../assets/images/white-lines.png'
 import img_samanthabrown from '../../assets/images/Samantha-Brown.png'
 
@@ -17,18 +21,13 @@ const About = () => {
                 </div>
             </div>
             <div className="about-company-text">
-                <div className="section-title">
-                    <p className="about">About Company</p>
-                    <h2>We Are Business Consulting & Credit Repair Experts</h2>
-                </div>
+            <SectionTitle text="About Company" title="We Are Business Consulting & Credit Repair Experts"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse
                     obcaecati? Ex esse error voluptates iure vel totam eos.<br></br>Lorem ipsum dolor sit amet
                     consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident
                     voluptate amet.</p>
                 <div className="learn-video">
-                    <a className="btn-black" href="company.html"><span>Learn More<i
-                                className="fa-regular fa-arrow-up-right"></i></span></a>
-                    
+                    <Button type= "black" text="Learn More" url="/services/learn-more"/>
                 </div>
             </div>
         </div>
