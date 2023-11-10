@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.css'
 import img_backgroundlinesright from '../../assets/images/background-lines-white-right.svg'
 import img_logotype from '../../assets/images/logotype-white.svg'
+import FooterList from '../Generics/FooterList'
+import SocialMedia from '../Generics/SocialMedia'
 
 const Footer = () => {
   return (
@@ -15,57 +17,17 @@ const Footer = () => {
                         Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
                 </div>
                 <div className="link-grid">
-                    <div className="link-container">
-                        <div className="link-header">Company</div>
-                        <div className="link-list">
-                            <a className="link">About</a>
-                            <a className="link">Features</a>
-                            <a className="link">Works</a>
-                            <a className="link">Career</a>
-                        </div>
-                    </div>
-                    <div className="link-container">
-                        <div className="link-header">Help</div>
-                        <div className="link-list">
-                            <a className="link">Customer Support</a>
-                            <a className="link">Delivery Details</a>
-                            <a className="link">Terms & Conditions</a>
-                            <a className="link">Privacy Policy</a>
-                        </div>
-                    </div>
-                    <div className="link-container">
-                        <div className="link-header">Resources</div>
-                        <div className="link-list">
-                            <a className="link">Free eBooks</a>
-                            <a className="link">Development Tutorial</a>
-                            <a className="link">How to - Blog</a>
-                            <a className="link">Youtube Playlist</a>
-                        </div>
-                    </div>
-                    <div className="link-container">
-                        <div className="link-header">Link</div>
-                        <div className="link-list">
-                            <a className="link">Free eBooks</a>
-                            <a className="link">Development Tutorial</a>
-                            <a className="link">How to - Blog</a>
-                            <a className="link">Youtube Playlist</a>
-                        </div>
-                    </div>
+                    <FooterList title="Company" item1="About" item2="Features" item3="Works" item4="Career" />
+                    <FooterList title="Help" item1="Customer Support" item2="Delivery Details" item3="Terms & Conditions" item4="Privacy Policy" />
+                    <FooterList title="Resources" item1="Free eBooks" item2="Development Tutorial" item3="How to - Blog" item4="Youtube Playlist" />
+                    <FooterList title="Link" item1="Free eBooks" item2="Development Tutorial" item3="How to - Blog" item4="Youtube Playlist" />
                 </div>
             </div>
         </div>
         <div className="footer-bottom">
             <div className="container">
                 <div className="copy">&copy; 2023 Crito - Consulting Company Inc. All Rights Reserved.</div>
-                <div className="social-media">
-                    <a className="social-media-button fa-brands fa-facebook" href="https://facebook.com"
-                        target="_blank"></a>
-                    <a className="social-media-button fa-brands fa-twitter" href="https://twitter.com" target="_blank"></a>
-                    <a className="social-media-button fa-brands fa-instagram" href="https://instagram.com"
-                        target="_blank"></a>
-                    <a className="social-media-button fa-brands fa-linkedin" href="https://linkedin.com"
-                        target="_blank"></a>
-                </div>
+                <SocialMedia />
             </div>
         </div>
     </footer>

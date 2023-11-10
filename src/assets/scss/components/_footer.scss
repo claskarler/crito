@@ -1,0 +1,128 @@
+footer {
+    background-color: #0e1021;
+    position: relative;
+    z-index: 0;
+
+    .footer-top {
+        position: relative;
+
+        .background-lines-white-right {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            display: none;
+
+            @media (min-width: 992px) {
+                display: block;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-top: 100px;
+            padding-bottom: 80px;
+
+            @media (min-width: 1200px) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .crito-about {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+
+                @media (min-width: 1200px) {
+                    max-width: 300px;
+                    margin-bottom: 0px;
+                }
+
+                img {
+                    max-width: 168px;
+                }
+
+                p {
+                    margin-top: 30px;
+                    color: #b6b6bc;
+
+                }
+            }
+
+            .link-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 60px;
+                row-gap: 20px;
+                margin-top: 15px;
+
+                @media (min-width: 767px) {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+
+                .link-container {
+                    display: flex;
+                    flex-direction: column;
+
+                    .link-header {
+                        color: white;
+                        font-family: "DM Sans";
+                        font-size: 22px;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                    }
+
+                    .link-list {
+                        color: #b6b6bc;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+
+                    .link {
+                        color: inherit;
+                        text-decoration: inherit;
+                        cursor: pointer;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        border-top: solid 1px #707070;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            .copy {
+                color: #b6b6bc;
+            }
+
+            .social-media {
+                display: none;
+                color: white;
+                font-size: 1.2em;
+
+                @media (min-width: 767px) {
+                    display: block;
+                }
+
+                .social-media-button {
+                    &:hover {
+                        color: #707070;
+                    }
+
+                    &:active {
+                        color: #434343;
+                    }
+                }
+            }
+        }
+    }
+}

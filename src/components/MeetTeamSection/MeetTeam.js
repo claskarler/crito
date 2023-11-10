@@ -3,6 +3,7 @@ import './MeetTeam.css'
 
 import SectionTitle from '../Generics/SectionTitle'
 import Button from '../Generics/Button'
+import TeamMember from '../Generics/TeamMember'
 
 import img_kristine from '../../assets/images/Kristine.png'
 import img_mark from '../../assets/images/Mark.png'
@@ -18,26 +19,10 @@ const MeetTeam = () => {
                 <Button type= "transparent" text="Browse Team" url="/meet-our-team"/>
             </div>
             <div className="team">
-                <div className="team-member">
-                    <img src={img_kristine}/>
-                    <h3>Kristine Palmer</h3>
-                    <p>Chef Operation Officer</p>
-                </div>
-                <div className="team-member">
-                    <img src={img_mark}/>
-                    <h3>Mark Aubri</h3>
-                    <p>Senior Consultant</p>
-                </div>
-                <div className="team-member">
-                    <img src={img_kimberly}/>
-                    <h3>Kimberly Hansen</h3>
-                    <p>Senior Consultant</p>
-                </div>
-                <div className="team-member">
-                    <img src={img_justin}/>
-                    <h3>Justin Willoman</h3>
-                    <p>Senior Tech Consultant</p>
-                </div>
+                <TeamMember image= {img_kristine} name= "Kristine Palmer" occupation="Chef Operation Officer" />
+                <TeamMember image= {img_mark} name= "Mark Aubri" occupation="Senior Consultant" />
+                <TeamMember image= {img_kimberly} name= "Kimberly Hansen" occupation="Senior Consultant" />
+                <TeamMember image= {img_justin} name= "Justin Willoman" occupation="Senior Tech Consultant" />
             </div>
             <div className="scroll">
                 <div className="button-container">

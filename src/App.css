@@ -52,7 +52,6 @@ body input {
 
 .btn-yellow {
   background-color: #f9d783;
-  border: 1px solid #f9d783;
   color: #191919;
   text-decoration: none;
   padding: 12px 30px;
@@ -70,6 +69,7 @@ body input {
 }
 .btn-yellow:hover {
   background-color: #191919;
+
   color: white;
 }
 

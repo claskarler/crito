@@ -3,7 +3,7 @@ import img_backgroundlines from '../../assets/images/background-lines.svg'
 import img_showcaseimage from '../../assets/images/showcase-image.svg'
 import Button from '../Generics/Button'
 
-function ShowcaseSection() {
+function Showcase() {
   return (
     <section className="showcase">
         <img className="background-lines" src={img_backgroundlines} alt=""/>
@@ -22,4 +22,4 @@ function ShowcaseSection() {
   )
 }
 
-export default ShowcaseSection
+export default Showcase

@@ -11,10 +11,13 @@ const NewsletterSignup = () => {
         <img className="background-wavy-lines" src={img_backgroundlines}/>
         <div className="container">
             <h2>Get News Updates By Signup</h2>
-            <form>
-                <input type="email" placeholder="username@domain.com"/>
-                <Button type= "yellow" text="Subscribe"/>
-            </form>
+            <div className="form-content">
+              <form id="subscribeForm">
+                <input className="error" type="email" placeholder="username@domain.com" />
+                <span className="error">You have to enter a valid email address</span>
+              </form>
+              <Button type="yellow" text="Subscribe"/>
+            </div>
         </div>
     </section>
   )
