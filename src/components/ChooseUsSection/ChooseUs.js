@@ -1,5 +1,4 @@
 import React from 'react'
-import './ChooseUs.css'
 import img_chooseus from '../../assets/images/why-choose-us.png'
 import SectionTitle from '../Generics/SectionTitle'
 
@@ -41,7 +40,7 @@ const ChooseUs = () => {
                     </div>
                 </div>
             </div>
-            <img src={img_chooseus}/>
+            <img src={img_chooseus} alt="Two women having a conversation in a conference room. One of them holding a tablet"/>
         </div>
     </section>
   )

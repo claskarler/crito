@@ -1,5 +1,4 @@
 import React from 'react'
-import './Footer.css'
 import img_backgroundlinesright from '../../assets/images/background-lines-white-right.svg'
 import img_logotype from '../../assets/images/logotype-white.svg'
 import FooterList from '../Generics/FooterList'

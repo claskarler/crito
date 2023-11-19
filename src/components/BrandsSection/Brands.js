@@ -1,5 +1,4 @@
 import React from 'react'
-import './Brands.css'
 import img_paperz from '../../assets/images/paperz.svg'
 import img_dorfus from '../../assets/images/dorfus.svg'
 import img_martino from'../../assets/images/martino.svg'

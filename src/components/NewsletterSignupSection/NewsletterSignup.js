@@ -1,5 +1,4 @@
 import React from 'react'
-import './NewsletterSignup.css'
 
 import Button from '../Generics/Button'
 
@@ -14,9 +13,8 @@ const NewsletterSignup = () => {
             <div className="form-content">
               <form id="subscribeForm">
                 <input className="error" type="email" placeholder="username@domain.com" />
-                <span className="error">You have to enter a valid email address</span>
+                <Button type="yellow" text="Subscribe"/>
               </form>
-              <Button type="yellow" text="Subscribe"/>
             </div>
         </div>
     </section>

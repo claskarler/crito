@@ -1,5 +1,4 @@
 import React from 'react'
-import './ArticleNews.css'
 
 import SectionTitle from '../Generics/SectionTitle'
 import Button from '../Generics/Button'
@@ -21,7 +20,7 @@ const ArticleNews = () => {
                 <a className="article 1" href="#">
                     <div className="image-date">
                         <DateBox date= "25" month="Mar"/>
-                        <img src={img_articleone}/>
+                        <img src={img_articleone} alt= "Woman sitting on a chair in an office building"/>
                     </div>
                     <div className="article-text">
                         <p>Business</p>
@@ -32,7 +31,7 @@ const ArticleNews = () => {
                 <a className="article 2" href="#">
                     <div className="image-date">
                         <DateBox date= "17" month="Mar"/>
-                        <img src={img_articletwo}/>
+                        <img src={img_articletwo} alt="A computer screen showing a website"/>
                     </div>
                     <div className="article-text">
                         <p>Business</p>
@@ -43,7 +42,7 @@ const ArticleNews = () => {
                 <a className="article 3" href="#">
                     <div className="image-date">
                         <DateBox date= "13" month="Mar"/>
-                        <img src={img_articlethree}/>
+                        <img src={img_articlethree} alt= "Two programming books and a phone stacked on top of a table"/>
                     </div>
                     <div className="article-text">
                         <p>Business</p>

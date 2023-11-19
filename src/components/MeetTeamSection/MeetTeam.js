@@ -1,5 +1,4 @@
 import React from 'react'
-import './MeetTeam.css'
 
 import SectionTitle from '../Generics/SectionTitle'
 import Button from '../Generics/Button'
@@ -19,10 +18,10 @@ const MeetTeam = () => {
                 <Button type= "transparent" text="Browse Team" url="/meet-our-team"/>
             </div>
             <div className="team">
-                <TeamMember image= {img_kristine} name= "Kristine Palmer" occupation="Chef Operation Officer" />
-                <TeamMember image= {img_mark} name= "Mark Aubri" occupation="Senior Consultant" />
-                <TeamMember image= {img_kimberly} name= "Kimberly Hansen" occupation="Senior Consultant" />
-                <TeamMember image= {img_justin} name= "Justin Willoman" occupation="Senior Tech Consultant" />
+                <TeamMember image= {img_kristine} name= "Kristine Palmer" occupation="Chef Operation Officer" alt="A woman with short wavy hair in a striped jacker"/>
+                <TeamMember image= {img_mark} name= "Mark Aubri" occupation="Senior Consultant" alt="A man with shaved dark hair in a suit" />
+                <TeamMember image= {img_kimberly} name= "Kimberly Hansen" occupation="Senior Consultant" alt="A woman with dark textured hair and a magazine in her lap" />
+                <TeamMember image= {img_justin} name= "Justin Willoman" occupation="Senior Tech Consultant" alt ="A man with short brown hair in a black jacket"/>
             </div>
             <div className="scroll">
                 <div className="button-container">

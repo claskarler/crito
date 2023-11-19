@@ -1,5 +1,4 @@
 import React from 'react'
-import './Features.css'
 import SectionTitle from '../Generics/SectionTitle'
 import Button from '../Generics/Button'
 

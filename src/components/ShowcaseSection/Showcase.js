@@ -16,7 +16,7 @@ function Showcase() {
                     <Button type= "transparent" text="Learn More" url="/services/consulting"/>
                 </div>
             </div>
-            <img src={img_showcaseimage} alt="man in a suit looking at a tablet"/>
+            <img src={img_showcaseimage} alt="Man in a suit looking at a tablet"/>
         </div>
     </section>
   )

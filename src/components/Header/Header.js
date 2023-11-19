@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 
-import './Header.css'
-import '../../App.css'
+import '../../assets/scss/index.css'
+
 import img_critologotype from '../../assets/images/logotype.svg'
 import Button from '../Generics/Button'
 import SocialMedia from '../Generics/SocialMedia'

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Services.css'
 import img_backgroundlines from '../../assets/images/background-lines-right.svg'
 import SectionTitle from '../Generics/SectionTitle'
 import Button from '../Generics/Button'
